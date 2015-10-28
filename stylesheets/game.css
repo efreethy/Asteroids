@@ -1,0 +1,33 @@
+#game-container {
+  border: solid 1px blue;
+
+  margin: auto;
+}
+#life-count {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 13px;
+  /* ../images/spacemetaio.jpg' */
+  color: black;
+
+}
+
+#canvas {
+  display: block;
+  margin: auto;
+}
+
+#start-button {
+  display: block;
+  border: solid 1px red;
+  width: 225px;
+  font-family: 'Press Start 2P', cursive;
+  margin: auto;
+  cursor: pointer;
+}
+#start-button:hover {
+  cursor: pointer;
+}
+
+#start-button.hidden {
+  display: none;
+}
