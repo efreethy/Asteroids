@@ -16,12 +16,12 @@
     <link href="stylesheets/game.css" rel="stylesheet" type="text/css">
   </head>
   <body>
-      <canvas id="canvas"></canvas>
+      <canvas width="2000" height="2200" id="canvas"></canvas>
     <script>
         var canvasEl = document.getElementsByTagName("canvas")[0];
         var game = new Asteroids.Game(window.innerWidth, window.innerHeight, 10);
-        canvasEl.width = game.DIM_X;
-        canvasEl.height = game.DIM_Y;
+        canvasEl.width = 1000;
+        canvasEl.height = 1000;
         var gameView = new Asteroids.GameView(game);
         gameView.welcome(canvasEl);
     </script>
