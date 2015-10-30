@@ -14,16 +14,19 @@
     <script type="text/javascript" src="lib/gameView.js"></script>
     <script type="text/javascript" src="lib/bullet.js"></script>
     <link href="stylesheets/game.css" rel="stylesheet" type="text/css">
+
+    <style> html body { overflow-x: hidden ; overflow-y: hidden; } </style>
   </head>
+
   <body>
       <canvas  id="canvas"></canvas>
     <script>
         var canvasEl = document.getElementsByTagName("canvas")[0];
-        var game = new Asteroids.Game(window.innerWidth, window.innerHeight, 10);
+        var game = new Asteroids.Game(window.innerWidth, window.innerHeight, 40);
         canvasEl.width = game.DIM_X;
         canvasEl.height = game.DIM_Y;
         var gameView = new Asteroids.GameView(game, canvasEl);
-      
+
         game.receiveGameView(gameView);
         gameView.welcome(canvasEl);
     </script>

@@ -3,13 +3,7 @@
 
   margin: auto;
 }
-#life-count {
-  font-family: 'Press Start 2P', cursive;
-  font-size: 13px;
-  /* ../images/spacemetaio.jpg' */
-  color: black;
 
-}
 
 #canvas {
   display: block;
