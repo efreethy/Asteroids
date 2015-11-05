@@ -9,6 +9,7 @@
     <script type="text/javascript" src="lib/keymaster.js"></script>
     <script type="text/javascript" src="lib/movingObject.js" ></script>
     <script type="text/javascript" src="lib/ship.js"></script>
+    <script type="text/javascript" src="lib/shield.js"></script>
     <script type="text/javascript" src="lib/game.js"></script>
     <script type="text/javascript" src="lib/asteroid.js"></script>
     <script type="text/javascript" src="lib/gameView.js"></script>
@@ -22,7 +23,7 @@
       <canvas  id="canvas"></canvas>
     <script>
         var canvasEl = document.getElementsByTagName("canvas")[0];
-        var game = new Asteroids.Game(window.innerWidth, window.innerHeight, 40);
+        var game = new Asteroids.Game(window.innerWidth, window.innerHeight, 50);
         canvasEl.width = game.DIM_X;
         canvasEl.height = game.DIM_Y;
         var gameView = new Asteroids.GameView(game, canvasEl);
