@@ -23,7 +23,7 @@
       <canvas  id="canvas"></canvas>
     <script>
         var canvasEl = document.getElementsByTagName("canvas")[0];
-        var game = new Asteroids.Game(window.innerWidth, window.innerHeight, 50);
+        var game = new Asteroids.Game(window.innerWidth, window.innerHeight, 40);
         canvasEl.width = game.DIM_X;
         canvasEl.height = game.DIM_Y;
         var gameView = new Asteroids.GameView(game, canvasEl);
