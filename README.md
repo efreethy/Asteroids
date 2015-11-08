@@ -1,5 +1,5 @@
 ## Overview
-This game is a browser playable recreation of the classic Asteroids. __[Live Link](http://efreethy.github.io/Asteroids/)
+This game is a browser playable recreation of the classic Asteroids. [Live Link](http://efreethy.github.io/Asteroids/)
 
 ### Features
 • Handles asteroid deflections with linear algebra and vector transformations.
